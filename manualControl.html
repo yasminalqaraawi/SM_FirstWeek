@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Robot Control Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header> <a href="RobotControlPanel.html"> <h2>Robot Control Panel</h2> </a> </header>
+
+ <main>
+
+ <div class="all">
+
+   <div class="nav">
+     <a href="manualControl.html">Manually</a>
+     <a href="autoControl.php">Automatically</a>
+   </div>
+
+
+ <div class="label"><h2>Welcome To Your Manual Robot Control Panel </h2> </div>
+
+
+ <div class="Movment">
+ <h4>Robot Movment</h4>
+ <form  action="manualControl.php" method="POST">
+ <input   type="submit" name="forward" value="Forward">
+ <br><br>
+<input   type="submit" name="right" value="Right">
+<input   type="submit" name="left" value="Left">
+<br><br>
+<input   type="submit" name="back" value="Backward">
+<div id="stopButton"> <input type="submit"  name="stop" value="STOP" > </div>
+</form>
+</div>
+
+</main>
+
+
+ <footer>
+  <p id="copyR">&#169;RobotControlPanel</p>
+ </footer>
+
+</body>
+</html>

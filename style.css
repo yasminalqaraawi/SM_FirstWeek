@@ -1,0 +1,91 @@
+/* Add a black background color to the top navigation */
+.nav {
+  background-color: #708090;
+  overflow: hidden;
+  padding-left: 40%;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a:active {
+  background-color: GoldenRod;
+  color: white;
+}
+
+.all{
+  text-align: center;
+  font-family: monospace;
+  color: gold;
+}
+
+header{
+  text-align: center;
+  font-family: monospace;
+  color: gold;
+}
+header a:visited{
+  color: GoldenRod;
+}
+
+.label{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#stopButton{
+  margin-left: 25%;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: GoldenRod;
+}
+
+
+
+#formAndMap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+
+#rightLabel{padding-right: 8%;}
+  #leftLabel{padding-right: 13%;}
+
+
+#autoButtons{
+padding-left:  4%;
+padding-right: 4%;}
+
+#distanceTable, th, td{
+border: 1px solid white;
+margin-left:21%;
+margin-top: 2%;
+font-family: monospace;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+body{
+  background-color: #778899;}
